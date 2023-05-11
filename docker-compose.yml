@@ -15,3 +15,4 @@ services:
       - WSPATH=$WSPATH
       - UUID=$UUID
       - SSH_DOMAIN=$SSH_DOMAIN
+    command: tail -f /dev/null
